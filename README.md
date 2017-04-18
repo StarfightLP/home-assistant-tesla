@@ -9,7 +9,9 @@ This is currently just a dirty mqtt script which will be converted to a proper m
 * Run tesla.py
 
 # Configuration in Home Assistant
-  
+
+`
+sensor:
   - platform: mqtt
     state_topic: "sensor/tesla/battery_level"
     name: Tesla battery level
@@ -39,7 +41,7 @@ This is currently just a dirty mqtt script which will be converted to a proper m
     state_topic: "sensor/tesla/charging_state"
     name: Charging state
     expire_after: 1800
-
+`
 
 # Warning
 The Tesla Motors API isn't official, as far as I know. If you spam them, they will temporarily block API (and app) access to your car. I'm running it 3 times an hour during daytime without getting locked out.
