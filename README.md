@@ -10,7 +10,7 @@ This is currently just a dirty mqtt script which will be converted to a proper m
 
 # Configuration in Home Assistant
 
-`
+```yaml
 sensor:
   - platform: mqtt
     state_topic: "sensor/tesla/battery_level"
@@ -41,7 +41,7 @@ sensor:
     state_topic: "sensor/tesla/charging_state"
     name: Charging state
     expire_after: 1800
-`
+```
 
 # Warning
 The Tesla Motors API isn't official, as far as I know. If you spam them, they will temporarily block API (and app) access to your car. I'm running it 3 times an hour during daytime without getting locked out.
