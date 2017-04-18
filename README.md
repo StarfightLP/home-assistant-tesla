@@ -1,7 +1,7 @@
 # home-assistant-tesla
 Tesla Motors module for Home Assistant
 
-This is currently just a dirty mqtt script which will be converted to a proper module. Hopefully =)
+This is currently just a dirty mqtt script which will be converted to a proper module. Hopefully =) Borne from discussion at https://community.home-assistant.io/t/tesla-motors-api-support-for-tracking/4782/6
 
 # Usage
 * Clone https://github.com/gglockner/teslajson
